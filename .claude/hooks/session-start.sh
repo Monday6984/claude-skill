@@ -14,6 +14,8 @@ SOURCES=(
   "vercel-labs/skills|find-skills"
   "vercel-labs/agent-skills|vercel-react-best-practices vercel-composition-patterns deploy-to-vercel web-design-guidelines writing-guidelines"
   "anthropics/skills|frontend-design webapp-testing"
+  "addyosmani/web-quality-skills|web-quality-audit performance core-web-vitals accessibility seo best-practices"
+  "secondsky/claude-skills|csrf-protection xss-prevention cybersecurity nextjs tailwind-v4-shadcn tanstack-query systematic-debugging root-cause-tracing code-review"
 )
 
 for entry in "${SOURCES[@]}"; do
