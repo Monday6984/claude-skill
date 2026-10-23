@@ -16,6 +16,10 @@ SOURCES=(
   "anthropics/skills|frontend-design webapp-testing"
   "addyosmani/web-quality-skills|web-quality-audit performance core-web-vitals accessibility seo best-practices"
   "secondsky/claude-skills|csrf-protection xss-prevention cybersecurity nextjs tailwind-v4-shadcn tanstack-query systematic-debugging root-cause-tracing code-review"
+  "blader/humanizer|humanizer"
+  "hardikpandya/stop-slop|stop-slop"
+  "funboy322/avoid-ai-design|avoid-ai-design"
+  "yetone/kill-ai-slop|kill-ai-slop"
 )
 
 for entry in "${SOURCES[@]}"; do

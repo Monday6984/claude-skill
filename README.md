@@ -28,6 +28,10 @@ Open this repo in a Claude Code cloud session and a startup hook
 | systematic-debugging | secondsky/claude-skills | Root cause first debugging |
 | root-cause-tracing | secondsky/claude-skills | Trace bugs back to their trigger |
 | code-review | secondsky/claude-skills | Code review practices (replaces the built-in /code-review) |
+| humanizer | blader/humanizer | Rewrite AI-sounding text |
+| stop-slop | hardikpandya/stop-slop | Strip AI writing tells from prose |
+| avoid-ai-design | funboy322/avoid-ai-design | Remove AI design clichés from frontends |
+| kill-ai-slop | yetone/kill-ai-slop | Scan a project for AI visual and copy tells and fix them |
 
 To add a skill, add it to `SOURCES` in the hook script.
 
@@ -39,4 +43,8 @@ npx skills add vercel-labs/agent-skills --skill vercel-react-best-practices verc
 npx skills add anthropics/skills --skill frontend-design webapp-testing -g -y
 npx skills add addyosmani/web-quality-skills --skill web-quality-audit performance core-web-vitals accessibility seo best-practices -g -y
 npx skills add secondsky/claude-skills --skill csrf-protection xss-prevention cybersecurity nextjs tailwind-v4-shadcn tanstack-query systematic-debugging root-cause-tracing code-review -g -y
+npx skills add blader/humanizer --skill humanizer -g -y
+npx skills add hardikpandya/stop-slop --skill stop-slop -g -y
+npx skills add funboy322/avoid-ai-design --skill avoid-ai-design -g -y
+npx skills add yetone/kill-ai-slop --skill kill-ai-slop -g -y
 ```
